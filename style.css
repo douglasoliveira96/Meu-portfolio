@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Pixel Digivolve';
+    src: url('Pixel\ Digivolve.otf') format('opentype'), url('Pixel\ Digivolve.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+.topnav {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, black, rgb(68, 67, 67));
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav a.active {
+    background-color: #253074;
+    color: white;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+a:hover {
+    cursor: pointer;
+}
+a:link {
+    color: white;
+  }
+  /* mouse over link */
+  .topnav .home:hover {
+    background-color: #253074;
+    color: white;
+}
+
+.topnav .sobre:hover {
+    background-color: #253074;
+    color: white;
+}
+.topnav .contato:hover {
+    background-color: #253074;
+    color: white;
+}
+  /* selected link */
+  a:active {
+    color: #253074;
+  }
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 20px;
+}
+body {
+    background-image: linear-gradient(to right, black, rgb(68, 67, 67));
+}
+.background {
+    background-image: url(img/pexels-myburgh-roux-1102797.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+    margin: 0%;
+    border: none;
+}
+.nome {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Rancho', cursive;
+}
+.proj {
+    color: white;
+    text-align: center;
+    font-family: Pixel Digivolve;
+    font-size: 40px;
+    padding: 40px;
+}
+.flex {
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.flex > div {
+    flex: 1 1 200px;
+}
+footer {
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+div {
+    padding: 30px;
+}
+/* link que ainda não foi visitado */
+.flex a:link {
+    text-decoration: none;
+    color: black;
+}
+/* link que foi visitado */
+.flex a:visited {
+    color: black;
+}
+
+/* mouse over */
+.flex a:hover {
+    color: rgba(0, 0, 0, 0.575);
+}
+
+/* link selecionado */
+.flex .a:active {
+    color: black;
+}
+.bemvindo {
+    color: rgba(255, 255, 255, 0.911);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}

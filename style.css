@@ -4,6 +4,41 @@
     font-weight: normal;
     font-style: normal;
 }
+h1.frase {
+    max-width: 460px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+
+h1.frase::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+.bemvindo {
+    margin: 0px;
+	padding: 0px;
+}
+.h1 .frase {
+    margin: 0px;
+	padding: 0px;
+}
 body, h1, h2, p, ul, li, a {
 	margin: 0px;
 	padding: 0px;
@@ -91,7 +126,8 @@ body {
     text-align: center;
     font-family: Pixel Digivolve;
     font-size: 40px;
-    padding: 40px;
+    padding: 30px;
+    padding-top: 10px;
 }
 .flex {
     background-color: gray;
@@ -110,6 +146,7 @@ footer {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 div {
     padding: 30px;

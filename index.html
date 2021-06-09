@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Dryicons-Aesthetica-2-Folder-full-accept.ico" type="image/x-icon">
     <title>Portifólio Douglas</title>
 </head>
+
 <body>
     <nav class="topnav" id="myTopnav">
         <a href="#" class="active">Home</a>
         <a href="sobre.html" class="sobre">Sobre Mim</a>
         <a href="#" class="contato">Contato</a>
     </nav>
-        <main class="background">
-            <h1 class="nome">Douglas de O. Henrique</h1>
-        </main>        
+    <main class="background">
+        <h1 class="nome">Douglas de O. Henrique</h1>
+    </main>
+    <div class="bemvindo">
+        <h1 class="frase">Seja bem vindo ao meu portfólio, conheça mais sobre mim e meu trabalho. Meu nome é Douglas e a sua visita ou parceria é muito importante para mim!
+        </h1>
+    </div>
     <div class="proj">
         Projetos
     </div>
@@ -28,13 +35,15 @@
         <div>
             <a href="https://pizzaria-le-scone.netlify.app/" target="_blank">
                 <h1>🍴 Le Scone</h1>
-                <p>Esse projeto foi realizado durante o curso de CSS com SASS da Origamid, na qual foi criada uma landing page de uma pizzaria fictícia.</p>
+                <p>Esse projeto foi realizado durante o curso de CSS com SASS da Origamid, na qual foi criada uma
+                    landing page de uma pizzaria fictícia.</p>
             </a>
         </div>
         <div>
             <a href="https://ver-idade.netlify.app/" target="_blank">
                 <h1>⏳ Verificador de idade</h1>
-                <p>Criei um verificador de idades onde a pessoa digita o ano de nascimento e o site verifica a idade e o sexo da mesma.</p>
+                <p>Criei um verificador de idades onde a pessoa digita o ano de nascimento e o site verifica a idade e o
+                    sexo da mesma.</p>
             </a>
         </div>
         <div>
@@ -66,5 +75,17 @@
     <footer>
         Copyright © 2021 - by Douglas de Oliveira
     </footer>
+    <script>
+        function typeWriter(elemento) {
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = '';
+            textoArray.forEach((letra, i) => {
+                setTimeout(() => elemento.innerHTML += letra, 75 * i);
+            });
+        }
+        const titulo = document.querySelector('.frase');
+        typeWriter(titulo);
+    </script>
 </body>
+
 </html>

@@ -48,7 +48,7 @@ body, h1, h2, p, ul, li, a {
     height: 100%;
     background-image: linear-gradient(to right, black, rgb(68, 67, 67));
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 .topnav a.active {
     background-color: #253074;

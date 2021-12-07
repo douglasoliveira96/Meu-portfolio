@@ -3,7 +3,8 @@
     padding: 0;
 }
 body {      
-    background-image: url('img/fundo.svg');    
+    background-image: url('img/fundo.svg'); 
+    background-color: #0e1013;   
 }
 body, h1, h2, p, ul, li, a {
 	margin: 0px;

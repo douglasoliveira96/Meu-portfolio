@@ -3,12 +3,12 @@
     padding: 0;
 }
 body {      
-    background: #131518;    
+    background-image: url('img/fundo.svg');    
 }
 body, h1, h2, p, ul, li, a {
 	margin: 0px;
 	padding: 0px;
-    color: whitesmoke;
+    color: #f5f5f5;
 }
 a{
     text-decoration: none;
@@ -177,6 +177,12 @@ ul li:nth-child(5):hover span {
     align-items: center;
     min-height: 50vh;    
 }
+
+.midias a {
+    color: #808080;
+}
+
+
 footer {
     color: gray;
     text-align: center;

@@ -114,12 +114,14 @@ body {
     padding: 100px;
     margin: 0%;
     border: none;
+    background-attachment: fixed;
 }
 .nome {
     color: white;
     text-align: center;
     font-size: 90px;
-    font-family: 'Rancho', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0.637);
 }
 .proj {
     color: white;
